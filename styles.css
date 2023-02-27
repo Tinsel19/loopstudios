@@ -1,0 +1,584 @@
+
+/* class tag  */
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Alata', sans-serif;
+
+    font-weight: normal;
+    
+    
+}
+
+p, a, button {
+    
+    font-family: 'Alata', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* class tags  */
+.hide {
+    visibility: collapse;
+}
+
+/* head section  */
+
+#head {
+    background-image: url(images/mobile/image-hero.jpg);
+    background-position-x: center;
+    background-position-y: center;  
+    padding: 4rem;
+    
+}
+
+.head2 {
+    border: 2px solid white;
+    /* width: 50%; */
+    margin: 200px auto;
+    color: white;
+    padding: 2rem;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.head2 h1 {
+    line-height: 1.2;
+}
+
+.navbar-menu-container {
+    position: absolute;
+    /* background-color: white; */
+    left: auto;
+    top: 30%;
+    height: 100%;
+    z-index: 2;
+}
+
+.navbar-menu-container a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+
+
+
+}
+
+.nav-toggle a:hover {
+    color: grey;
+}
+.nav-toggle a:active {
+    color: grey;
+}
+
+.navbar-menu-container a:hover {
+    color: grey;
+    /* font-size: 2rem; */
+}
+.navbar-menu-container a:active {
+    color: grey;
+}
+
+/* body section  */
+#body {
+    padding: 4rem;
+    margin-top: 100px;
+    
+}
+
+.inter-img {
+    width: 100%;
+}
+
+.body1-2 h2{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(98, 98, 98);
+}
+.body1-2 p{
+    /* font-size: 2rem; */
+    text-align: center;
+    color: grey;
+    margin-bottom: 100px;
+}
+
+.body2-head h3 {
+    font-size: 2.3rem;
+    text-align: center;
+    color: rgb(98, 98, 98)
+}
+
+#btn {
+    padding: 0px;
+    font-size: 2rem;
+}
+
+.body3 {
+    text-align: center;
+    color: white;
+}
+
+.img-text  {
+    text-align: left;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 50px;
+     
+}
+
+.img-text:active {
+    opacity: 0.6;
+}
+
+.body3 h3 {
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-left: .7rem;
+    position: relative;
+    bottom: -60%
+}
+
+.deep-earth {
+    background-image: url("images/mobile/image-deep-earth.jpg");
+    background-position-y: center;
+    background-position-x: center;
+    background-size:cover;
+}
+
+
+.night-arcade {
+    background-image: url("images/mobile/image-night-arcade.jpg");
+    background-position-y: center;
+    background-position-x: center;
+    background-size:cover;
+}
+
+
+.soccer-VR {
+    background-image: url("images/mobile/image-soccer-team.jpg");
+    background-position-y: center;
+    background-position-x: center;
+    background-size:cover;
+    
+}
+
+.the-grid {
+    background-image: url("images/mobile/image-grid.jpg");
+    background-position-y: center;
+    background-position-x: center;
+    background-size:cover;
+    
+}
+
+.above-vr {
+    background-image: url("images/mobile/image-from-above.jpg");
+    background-position-y: center;
+    background-position-x: center;
+    background-size:cover;
+    
+}
+
+.borealis {
+    background-image: url("images/mobile/image-pocket-borealis.jpg");
+    background-position-y: center;
+    background-position-x: center;
+    background-size:cover;
+    
+}
+
+.curiosity {
+    background-image: url("images/mobile/image-curiosity.jpg");
+    background-position-y: center;
+    background-position-x: center;
+    background-size:cover;
+    
+}
+
+.fisheye {
+    background-image: url("images/mobile/image-fisheye.jpg");
+    background-position-y: center;
+    background-position-x: center;
+    background-size:cover;
+    
+}
+
+.body3 button {
+    background-color: white;
+    border: 2px solid grey;
+    color: black;
+    padding: .6rem 3rem;
+    letter-spacing: 2px;
+    
+}
+
+/* footer section  */
+#footer {
+    background-color: black;
+
+    padding: 4rem 3rem;
+}
+
+.left-footer {
+    text-align: center;
+}
+
+.left-footer img {
+    margin-bottom: 2rem;
+}
+
+.left-footer a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}   
+
+.left-footer a:hover {
+    color: rgb(182, 177, 177);
+}
+
+.left-footer a:active {
+    color: rgb(182, 177, 177);
+}
+
+.social-icons {
+    margin-top: 2rem;
+    /* display: grid; */
+    /* justify-content: space-evenly; */
+    
+}
+#x {
+    text-align: center;
+}
+#x a {
+    display: inline-block;
+}
+.img-s {
+    display: inline-block;
+    text-align: center;
+}
+
+.social-icons a {
+    display: block;
+}
+
+.social-icons img:hover {
+    opacity: .8;
+}
+
+.social-icons img:active {
+    opacity: .8;
+}
+
+#footer p {
+    text-align: center;
+    color: rgb(211, 207, 207);
+    font-size: .9rem;
+
+}
+
+/* attribution section  */
+.attribution a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: .7rem;
+    letter-spacing: 2px;
+}
+
+.attribution a:hover {
+    opacity: .8;
+}
+
+.attribution a:active {
+    opacity: .8;
+}
+
+
+
+
+
+
+@media (min-width: 324px) and (max-width: 466px) {
+    #head {
+        padding: 2rem;
+    }
+
+    .head2 {
+        font-size: 1.5rem;
+    }
+
+    #body {
+        padding: auto 2rem;
+    }
+    .body1-2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .body1-2 p{
+        font-size: .8rem;
+        margin-bottom: 50px;
+    }
+
+    .body2-head h3 {
+        font-size: 1.5rem;
+    }
+
+    .body3 h3 {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+/* desktop view design segment  */
+@media (min-width: 740px ) {
+    #head {
+        background-image: url(images/desktop/image-hero.jpg);
+        padding: 4rem;
+        height: 100%;
+        background-repeat: no-repeat;
+
+    }
+
+    .hide {
+        visibility: visible;
+        position: relative;
+    }
+
+    #nav {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        /* justify-content: space-between; */
+        margin: 0px;
+    }
+    #mobile-nav {
+        visibility: collapse;
+    }
+    .navbar-menu-container {
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        z-index: 1;
+    }
+
+    #nav-item {
+        font-size: 1rem;
+        margin-right: 20px;
+    }
+
+    #nav-item:hover {
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        color: white;
+        font-size: .8rem;
+    }
+
+    .head2 {
+        display: inline-block;
+        width: 50%;
+        margin: 100px auto;
+    }
+
+
+    .body1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .body1-2 {
+        position: relative;
+        height: 65%;
+        background-color: white;
+        padding: auto 3rem 0px;
+        bottom: -35%;
+        left: -29%;
+        
+    }
+
+    .body1-2 h2 {
+        font-size: 1.2rem;
+
+    }
+    .body1-2 p {
+        font-size: .8rem;
+        position: relative;
+        vertical-align: text-bottom;
+    }
+
+    .body2-head {
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;  
+        margin-top: 50px;
+    }
+    .body2-head h3 {
+        margin: 3rem 0px;
+        text-align: left;
+    }
+
+
+    #btn {
+        background-color: black;
+        color:  white;
+        margin: auto  0px auto auto;
+        padding: .3rem 3rem;
+        letter-spacing: 2px;
+        font-size: 1.2rem;
+        /* height: 100%;     */
+        letter-spacing: 3px;
+        text-align: right;
+        right: auto;
+        position: relative;
+        display: inline-block;
+        
+
+    }
+
+    .body3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+
+    .img-text{
+        height: 300px;
+        /* background-size: cover; */
+    }
+
+    .night-arcade {
+        background-image: url("images/desktop/image-night-arcade.jpg");
+        background-position-y: center;
+        background-position-x: center;
+        background-size:cover;
+        
+    }
+
+    .deep-earth {
+        background-image: url("images/desktop/image-deep-earth.jpg");
+        background-position-y: center;
+        background-position-x: center;
+        background-size:cover;
+        
+    }
+    .soccer-VR {
+        background-image: url("images/desktop/image-soccer-team.jpg");
+        background-position-y: top;
+        background-position-x: center;
+        background-size:cover;
+        
+    }
+    .the-grid {
+        background-image: url("images/desktop/image-grid.jpg");
+        background-position-y: center;
+        background-position-x: center;
+        background-size:cover;
+        
+    }
+    .above-vr {
+        background-image: url("images/desktop/image-from-above.jpg");
+        background-position-y: center;
+        background-position-x: center;
+        background-size:cover;
+        
+    }
+    .borealis {
+        background-image: url("images/desktop/image-pocket-borealis.jpg");
+        background-position-y: center;
+        background-position-x: center;
+        background-size:cover;
+        
+    }
+    .curiosity {
+        background-image: url("images/desktop/image-curiosity.jpg");
+        background-position-y: center;
+        background-position-x: center;
+        background-size:cover;
+        
+    }
+    .fisheye {
+        background-image: url("images/desktop/image-fisheye.jpg ");
+        background-position-y: center;
+        background-position-x: center;
+        background-size:cover;
+        
+    }
+
+    .btn-x {
+        visibility: collapse;
+    }
+
+/* footer */
+    .main-footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: auto;
+    }
+
+    
+
+    .left-footer {
+        display: grid;
+    }
+
+    .left-footer img {
+        margin: 0px;
+    }
+
+    .right-footer {
+        display: grid;
+    }
+
+    #footer p{
+        text-align: right;
+        font-size: .5rem;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 5px;
+    }
+
+    .social-icons{
+        display: grid;
+        grid-template-columns: 40px 40px 40px 40px 40px;
+        justify-content: space-between;
+        gap: 0px;
+        margin: 0px;
+        text-align: left;
+    }
+    #x {
+        margin-right: 0px;
+        position: relative;
+        right: -30%;
+        gap: 0px;
+    }
+
+    #footer a {
+        font-size: .5rem;
+    }
+
+    .img-s {
+        min-width: fit-content;
+    }
+
+    #footer {
+        padding: .5rem auto;
+        padding-bottom: 10px;
+    }
+
+}
